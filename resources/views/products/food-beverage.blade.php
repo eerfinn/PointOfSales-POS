@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Food Beverage</title>
-</head>
-<body>
-    
-</body>
-</html>
+@extends('layouts.app')
+
+@section('title', 'Food & Beverage - Point of Sales')
+
+@section('content')
+<div class="container content-padding">
+  <h1>Food & Beverage</h1>
+  <p>This is the food and beverage category page.</p>
+</div>
+@endsection

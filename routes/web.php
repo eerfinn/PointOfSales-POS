@@ -18,7 +18,7 @@ Route::prefix('category')->group(function () {
 });
 
 // Halaman User
-Route::get('/user/{id}/name/{name}', [UserController::class, 'show']);
+Route::get('/user/{id?}/name/{name?}', [UserController::class, 'show']);
 
 // Halaman Penjualan (Point of Sales)
 Route::get('/sales', [SalesController::class, 'index']);

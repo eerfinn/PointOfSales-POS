@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Beauty Health</title>
-</head>
-<body>
-    
-</body>
-</html>
+@extends('layouts.app')
+
+@section('title', 'Beauty Health - Point of Sales')
+
+@section('content')
+<div class="container content-padding">
+  <h1>Beauty & Health</h1>
+  <p>This is the beauty and health category page.</p>
+</div>
+@endsection

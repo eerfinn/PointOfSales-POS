@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Profile</title>
-</head>
-<body>
-    
-</body>
-</html>
+@extends('layouts.app')
+
+@section('title', 'User Profile - Point of Sales')
+
+@section('content')
+<div class="container content-padding">
+  <h1>User Profile</h1>
+  <p>User ID: {{ $id }}</p>
+  <p>Name: {{ $name }}</p>
+</div>
+@endsection
